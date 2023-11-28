@@ -99,7 +99,7 @@ p {
     }
   }
   .container-block {
-    padding: 30px;
+    padding: 15px;
   }
   .container-block-title {
     text-transform: uppercase;
@@ -163,7 +163,7 @@ p {
   grid-column: span 7;
   order: $resume-order;
   background: #fff;
-  padding: 60px;
+  padding: 30px;
   .section-title {
     text-transform: uppercase;
     font-size: 20px;
@@ -174,7 +174,11 @@ p {
     margin-bottom: 20px;
   }
   .section {
-    margin-bottom: 60px;
+    margin-top: 40px;
+  }
+
+  .section.summary-section {
+    margin-top: 0px;
   }
 
   .experiences-section,
@@ -254,20 +258,20 @@ p {
 
 .skillset {
   .item {
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     overflow: hidden;
   }
   .level-title {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 0;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
   }
   .level-bar {
-    height: 12px;
+    height: 8px;
     background: $smoky-white;
   }
   .level-bar-inner {
-    height: 12px;
+    height: 8px;
     background: lighten($theme-color, 15%);
   }
 }
